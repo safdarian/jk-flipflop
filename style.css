@@ -1,0 +1,134 @@
+
+body
+{
+    font-family: cursive;
+}
+div.div1
+{
+    position: relative;
+    border: 1px solid black;
+    width:150px;
+    height:150px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+div.div2
+{
+    
+    justify-self: flex-start;
+    align-content: center;
+    display: block;
+    background-color: black;
+    width: 8px;
+    height: 14px;
+    clip-path: polygon(100% 50%, 0% 100%, 0% 0%);
+}
+div.div3
+{
+    margin: auto;
+    background-color: white;
+    width: 7px;
+    height: 12px;
+    clip-path: polygon(100% 50%, 0% 100%, 0% 0%);
+}
+div.floatjk
+{
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+div.left
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+div.right
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+div.line
+{
+    width: 50px;
+    height: 1px;
+    background-color: black;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0px;
+}
+div.whole
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+div.ff
+{
+    display: flex;
+    align-self: center;
+}
+div.checkbox
+{
+    display: flex;
+}
+div.outpart
+{
+    display: block;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+div.out
+{
+    display: block;
+    width: 100%;
+    height: 100px;
+    /* border: 1px dotted black; */
+    border-left-style: hidden;
+    padding: 1px;
+}
+canvas.result
+{
+    width: 100%;
+    height:100%;
+}
+div.button
+{
+    display: flex;
+    justify-content: center;
+}
+input.b1 
+{
+    font-family: cursive;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    width: 100%;
+    height: 40px;
+    transition:linear 0.2s;
+}
+div.about
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px black;
+    margin-bottom: 5px;
+    
+}
+div.header
+{
+    display: flex;
+    justify-content: space-around;
+
+}

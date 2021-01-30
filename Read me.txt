@@ -1,0 +1,7 @@
+just open index.html
+
+shortcuts for the commands are:
+start/stop : space
+toggle J input : j
+toggle K input : k
+toggle CLK input : c

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JK-FF</title>
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery/jquery-3.3.1.min.js"></script>
+    <script src="vector.js"></script>
+    <script src="calculate.js"></script>
+    <script src="load.js"></script>
+</head>
+<body>
+    <div class="whole">
+        <div class="header">
+            <div class="ff">
+               <div id="left" class="left">
+                   <div class="line">
+                       <div class="checkbox">
+                           <input type="checkbox" name="checkJ" id="checkJ" class="check">
+                           J
+                       </div>
+                   </div>
+                   <div class="line">
+                       <div class="checkbox">
+                           <input type="checkbox" name="checkCLK" id="checkCLK" class="check">
+                           CLK
+                       </div>
+                   </div>
+                   <div class="line">    
+                       <div class="checkbox">
+                               <input type="checkbox" name="checkK" id="checkK" class="check">
+                               K        
+                       </div>
+                   </div>
+
+               </div>
+               <div id="jk-ff" class="div1">
+                   <div id="div2" class="div2">
+                       <div id="div3" class="div3">
+                        
+                       </div>                
+                   </div>
+                   <div id="floatjk" class="floatjk">
+                       JK-FF
+                   </div>
+               </div>
+               <div id="right" class="right">
+                       <div class="line">
+                           <div class="checkbox">
+                               <div id="qsign" class="qsign">
+                                   Q
+                               </div>
+                           </div>
+                       </div>
+                       <div class="line">
+                           <div id="qqsign" class="qqsign">
+                               Q'
+                           </div>
+                       </div>
+               </div>    
+            </div>
+            <div class="about">
+                Simulating a JK-FF
+                <br>
+                Created By : AmirHossein Safdarian
+                <br>
+                Teacher : Dr. Mala
+            </div>
+        </div>
+        <div class = "outpart">
+            
+            <div class="out" id="clkout">
+                <canvas class="result" id="clkcanvas">
+                    
+                </canvas>
+            </div>
+            
+            <div class="out" id="jout">
+                <canvas class="result" id="jcanvas">
+
+                </canvas>
+            </div>
+            
+            <div class="out" id="kout">
+                <canvas class="result" id="kcanvas">
+                    
+                </canvas>
+            </div>
+            
+            <div class="out" id="qout">
+                <canvas class="result" id="qcanvas">
+                    
+                </canvas>
+            </div>
+            <div class="button">
+                <input id = "run" class="b1" type="button" value="Start/Stop" onclick="run()">
+            </div>
+        </div>
+        
+    </div>     
+</body>
+</html>
